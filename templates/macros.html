@@ -21,7 +21,9 @@
 {# Styling for authors in publication list #}
 {% macro author(name) %}
 
-{%- if name == "Rachit Nigam" -%}
+{%- if name == "Joey Eremondi" -%}
+  <span class="publication-highlight">{{ name }}</span>
+{%- elif name == "Joseph Eremondi" -%}
   <span class="publication-highlight">{{ name }}</span>
 {%- else -%}
 
