@@ -1,0 +1,275 @@
+#+hugo_base_dir: /home/joey/gh/eremondi.com-Test/
+
+* About
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: about
+:END:
+** About
+:PROPERTIES:
+:EXPORT_DATE: <2021-08-03 Tue>
+:EXPORT_FILE_NAME: about
+:END:
+I'm Joseph (Joey) Eremondi, a PhD student working with
+[[https://www.cs.ubc.ca/~rxg/][Ron Garcia]] at the
+[[https://spl.cs.ubc.ca/][UBC Software Practices Laboratory]].
+
+My research is centred around type systems for making code more
+reliable, and in the theory and practice of making such systems easier
+to use. In particular, I'm interested in mixing dependent types with
+gradual types and improving error messages for dependently-typed
+languages. I've also researched the properties of reversal-bounded
+counter automata, and the shuffle operator on words.
+
+
+* blog
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: post
+:END:
+** UBC Beamer Theme
+:PROPERTIES:
+:EXPORT_DATE: <2017-12-28>
+:EXPORT_FILE_NAME: ubc-beamer
+:END:
+
+   I recently had to make a LaTeX slideshow,
+   and was disappointed with how awful most of the themes looked.
+   I found the Metropolis theme, which was quite nice and modern, and I adapted it to have the UBC colours and logo.
+
+   You can see it live on [[https://www.overleaf.com/read/zqngzmyspphw][Overleaf]],
+   or you can see the code on [[https://github.com/JoeyEremondi/UBC-Metropolis-Beamer][GitHub]].
+
+   Suggestions or Pull requests are welcome!
+
+   If you’re going to a conference, or even making a presentation in a class with lots of formulas, this could come in handy.
+
+** VSCode Package for Ott
+:PROPERTIES:
+:EXPORT_DATE: <2018-02-02>
+:EXPORT_FILE_NAME: ott-vscode
+:END:
+
+   I’ve made a package that integrates the
+   [[http://www.cl.cam.ac.uk/~pes20/ott/][Ott Semantic Modelling tool]] into Visual Studio Code.
+   Right now, it supports syntax highlighting, and showing error messages inline,
+   but I hope to eventually add support for source formatting, and prettifying symbols.
+
+   You can view the package [[https://marketplace.visualstudio.com/items?itemName=JoeyEremondi.ott][here]].
+
+   Pull requests, collaboration, suggestions are all welcome!
+
+
+* news
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: news
+:END:
+** New Paper: Approximate Normalization for Gradual Dependent Types
+:PROPERTIES:
+:EXPORT_DATE: <2019-07-26>
+:EXPORT_FILE_NAME: icfp-19-arxiv-news
+:END:
+New paper : [[https://dl.acm.org/doi/10.1145/3341692][Approximate Normalization for Gradual Dependent Types]]
+** New Paper: Improving Error Messages for Dependent Types
+:PROPERTIES:
+:EXPORT_DATE: <2019-01-24>
+:EXPORT_FILE_NAME: tfp-19-arxiv-news
+:END:
+New paper :
+[[https://www.degruyter.com/view/j/comp.2019.9.issue-1/comp-2019-0001/comp-2019-0001.xml?format=INT][Improving Error Messages for Dependent Types]]
+
+** McCarthy Award
+:PROPERTIES:
+:EXPORT_DATE: <2020-02-17>
+:EXPORT_FILE_NAME: mccarthy-award
+:END:
+
+I was awarded the John McCarthy best paper award for my [[https://arxiv.org/abs/1905.09423][TFP 2019]] paper
+
+** Defended Proposal
+:PROPERTIES:
+:EXPORT_DATE: <2021-03-17>
+:EXPORT_FILE_NAME: Proposal-defense
+:END:
+I have successfully defended my thesis proposal: I am officially a PhD Candidate
+
+
+
+* publications
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: publication
+:END:
+
+** TFP19
+:PROPERTIES:
+:EXPORT_FILE_NAME: tfp19
+:EXPORT_TITLE: Set Constraints, Pattern Match Analysis and SMT
+:EXPORT_DATE: <2019-06-01>
+:END:
+#+begin_src toml :front_matter_extra t
+[extra]
+authors = ["Joseph Eremondi"]
+
+publication = "Trends in Functional Programming"
+publication_short = "TFP"
+
+
+pdf = "https://link.springer.com/chapter/10.1007/978-3-030-47147-7_6"
+urls = [
+ {name = "Code", url = "https://github.com/JoeyEremondi/elm-compiler-patmatch-smt" },
+ {name = "ArXiV", url = "https://arxiv.org/abs/1905.09423"}
+]
+#+end_src
+** ICFP19
+:PROPERTIES:
+:EXPORT_FILE_NAME: icfp19
+:EXPORT_TITLE: Approximate Normalization for Gradual Dependent Types
+:EXPORT_DATE: <2019-07-26>
+:END:
+#+begin_src toml :front_matter_extra t
+[extra]
+authors = ["Joseph Eremondi", "Éric Tanter", "Ron Garcia"]
+
+publication = "International Conference on Functional Programming"
+publication_short = "ICFP"
+
+
+pdf = "https://dl.acm.org/doi/10.1145/3341692"
+urls = [
+ {name = "Code", url =  "https://github.com/JoeyEremondi/GDTL-artifact"},
+ {name = "Video", url = "https://www.youtube.com/watch?v=e4FeQCabuOQ"}
+]
+#+end_src
+
+
+
+** OpenCS Masters
+:PROPERTIES:
+:EXPORT_FILE_NAME: ocs19
+:EXPORT_TITLE: A Framework for Improving Error Messages in Dependently-Typed Languages
+:EXPORT_DATE: <2019-01-24>
+:END:
+#+begin_src toml :front_matter_extra t
+[extra]
+authors = ["Joseph Eremondi", "Wouter Swierstra", "Jurriaan Hage"]
+
+publication = "Open Computer Science"
+publication_short = "Open CS"
+
+
+pdf = "https://www.degruyter.com/document/doi/10.1515/comp-2019-0001/html"
+urls = [
+ {name = "Code", url = "https://github.com/JoeyEremondi/lambda-pi-constraint"},
+ {name = "MSc Thesis Version", url = "http://dspace.library.uu.nl/handle/1874/337692" },
+]
+#+end_src
+
+
+** Shuffle Complexity
+:PROPERTIES:
+:EXPORT_FILE_NAME: shuffle-comp
+:EXPORT_TITLE: On the Complexity and Decidability of Some Problems Involving Shuffle
+:EXPORT_DATE: <2018-04-01>
+:END:
+#+begin_src toml :front_matter_extra t
+[extra]
+authors = ["Joseph Eremondi", "Oscar H. Ibarra", "Ian McQuillan"]
+
+publication = "Information and Computing"
+publication_short = "Info. Comput."
+
+
+pdf = "https://www.sciencedirect.com/science/article/abs/pii/S0890540117301591"
+urls = [
+  {name = "Conference Version (DCFS'15)", url = "https://link.springer.com/chapter/10.1007/978-3-319-19225-3_9"},
+  {name = "ArXiV", url = "https://arxiv.org/abs/1606.01199"}
+]
+#+end_src
+
+** Density Languages
+:PROPERTIES:
+:EXPORT_FILE_NAME: density-lang
+:EXPORT_TITLE: On the Density of Context-Free and Counter Languages
+:EXPORT_DATE: <2018-02-01>
+:END:
+#+begin_src toml :front_matter_extra t
+[extra]
+authors = ["Joseph Eremondi", "Oscar H. Ibarra", "Ian McQuillan"]
+
+publication = "International Journal of Foundations of Computer Science"
+publication_short = "IJFCS"
+
+
+pdf = "https://www.worldscientific.com/doi/abs/10.1142/S0129054118400051"
+urls = [
+{name = "Conference Version (DLT'15)", url = "https://link.springer.com/chapter/10.1007/978-3-319-21500-6_18"},
+{name = "ArXiV", url = "https://arxiv.org/abs/1903.03001" }
+]
+#+end_src
+
+
+** Insertion Operations
+:PROPERTIES:
+:EXPORT_FILE_NAME: insertion-ops
+:EXPORT_TITLE: Insertion Operations on Deterministic Reversal-Bounded Counter Machines
+:EXPORT_DATE: <2019-01-01>
+:END:
+#+begin_src toml :front_matter_extra t
+[extra]
+authors = ["Joseph Eremondi", "Oscar H. Ibarra", "Ian McQuillan"]
+
+publication = "Journal of Computer and System Sciences"
+publication_short = "Comp. System Sciences"
+
+
+pdf = "https://www.sciencedirect.com/science/article/abs/pii/S002200001830117X"
+urls = [
+{name = "Conference Version (LATA'15)", url = "https://link.springer.com/chapter/10.1007/978-3-319-15579-1_15" },
+{name = "ArXiV", url = "https://arxiv.org/abs/1903.03518"  }
+]
+#+end_src
+
+
+** Deletion Operations
+:PROPERTIES:
+:EXPORT_FILE_NAME: deletion-ops
+:EXPORT_TITLE: Deletion Operations on Deterministic Families of Automata
+:EXPORT_DATE: <2017-10-01>
+:END:
+#+begin_src toml :front_matter_extra t
+[extra]
+authors = ["Joseph Eremondi", "Oscar H. Ibarra", "Ian McQuillan"]
+
+publication = "Information and Computing"
+publication_short = "Info. Comput"
+
+
+pdf = "https://www.sciencedirect.com/science/article/abs/pii/S0890540117301104"
+urls = [
+{name = "Conference Version (TAMC'15)", url = "https://link.springer.com/chapter/10.1007/978-3-319-17142-5_33" },
+{name = "ArXiV", url = "https://arxiv.org/abs/1607.00931"  }
+]
+#+end_src
+
+** UbiLight
+:PROPERTIES:
+:EXPORT_FILE_NAME: aspecta
+:EXPORT_TITLE: The ASPECTA Toolkit: Affordable Full Coverage Displays
+:EXPORT_DATE: <2016-06-01>
+:END:
+#+begin_src toml :front_matter_extra t
+[extra]
+authors = ["Julian Petford", "Miguel A. Nacenta", "Carl Gutwin", "Joseph Eremondi", "Cody Ede"]
+
+publication = "Proceedings of the 5th ACM International Symposium on Pervasive Displays"
+publication_short = "PerDis"
+
+
+pdf = "https://dl.acm.org/doi/abs/10.1145/2914920.2915006"
+urls = [
+]
+#+end_src
+
+* Footnotes
+* COMMENT Local Variables                          :ARCHIVE:
+# Local Variables:
+# eval: (org-hugo-auto-export-mode)
+# End:
