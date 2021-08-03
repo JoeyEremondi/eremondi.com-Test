@@ -12,7 +12,7 @@ publication_short = "IJFCS"
 
 pdf = "https://www.worldscientific.com/doi/abs/10.1142/S0129054118400051"
 urls = [
-{name = "Conference Version (DLT 2015)", url = "https://link.springer.com/chapter/10.1007/978-3-319-21500-6_18"},
+{name = "Conference Version (DLT'15)", url = "https://link.springer.com/chapter/10.1007/978-3-319-21500-6_18"},
 {name = "ArXiV", url = "https://arxiv.org/abs/1903.03001" }
 ]
 +++
