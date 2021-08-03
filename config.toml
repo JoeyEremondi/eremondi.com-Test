@@ -27,4 +27,6 @@ author = [
   { name = "Wouter Swierstra", link = "https://webspace.science.uu.nl/~swier004/" },
   { name = "Éric Tanter", link = "https://pleiad.cl/people/etanter" },
   { name = "Jurriaan Hage", link = "https://webspace.science.uu.nl/~hage0101/" },
+  { name = "Oscar H. Ibarra", link = "https://sites.cs.ucsb.edu/~ibarra/" },
+  { name = "Ian McQuillan", link = "https://www.cs.usask.ca/faculty/mcquillan/" },
 ]
